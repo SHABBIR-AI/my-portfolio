@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Dark Mode Toggle -->
+    <label class="dark-mode-toggle">
+        <input type="checkbox" id="dark-mode-switch">
+        <span class="slider"></span>
+    </label>
+
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <div class="logo">👨‍💻 My Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#contact" class="contact-btn">Contact Me</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="profile-image">
+            <img src="https://assets.onecompiler.app/432x4d88a/439jp28dr/1000056363.jpg" alt="Profile" class="profile-pic">
+        </div>
+        <div class="content">
+            <h3>👋 Hello, I'm</h3>
+            <h1>SHABBIR SHAIK</h1>
+            <h2>A <span class="highlight">Web Developer</span></h2>
+            <p>
+                Passionate about building beautiful & functional web applications. 
+                Specializing in modern web technologies like HTML & CSS.
+            </p>
+            <div class="buttons">
+                <a href="#" class="download-btn">📂 Download CV</a>
+                <a href="#projects" class="projects-btn">🚀 My Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section with Animated Buttons -->
+    <section class="about" id="about">
+        <h2 class="typing-effect">About Me</h2>
+        <div class="animated-buttons">
+            <button class="about-btn">👨‍💻 Web Developer</button>
+            <button class="about-btn">🎨 UI/UX Enthusiast</button>
+            <button class="about-btn">🚀 Tech Explorer</button>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2>My Projects</h2>
+        <div class="project-container">
+            <div class="project-card"><a href="project1.html">Project 1</a></div>
+            <div class="project-card"><a href="project2.html">Project 2</a></div>
+            <div class="project-card"><a href="project3.html">Project 3</a></div>
+            <div class="project-card"><a href="project4.html">Project 4</a></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <p>Fill out the form below, and I'll get back to you soon!</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <h3 class="video-title typing-effect">Watch Your Portfolio Here</h3>
+        <div class="videos">
+            <iframe width="400" height="250" src="https://www.youtube.com/embed/video1?autoplay=1&mute=1" frameborder="0" allowfullscreen></iframe>
+            <iframe width="400" height="250" src="https://www.youtube.com/embed/video2?autoplay=1&mute=1" frameborder="100" allowfullscreen></iframe>
+            <iframe width="400" height="250" src="https://www.youtube.com/embed/video3?autoplay=1&mute=1" frameborder="1" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Footer with Contact & Social Links -->
+    <footer>
+        <div class="footer-content">
+            <p>📞 885692962 | 📧 shaikshabbirbcecast@gmail.com</p>
+            <div class="social-icons">
+                <a href="https://github.com/yourgithub" target="_blank">GitHub</a>
+                <a href="https://youtube.com/yourchannel" target="_blank">YouTube</a>
+            </div>
+        </div>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
